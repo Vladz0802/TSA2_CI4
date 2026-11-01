@@ -31,7 +31,7 @@ app.baseURL = 'http://localhost:8080'
 #--------------------------------------------------------------------
 
 database.default.hostname = localhost
-database.default.database = task_for_today
+database.default.database = tasks_for_today
 database.default.username = root
 database.default.password = 
 database.default.DBDriver = MySQLi

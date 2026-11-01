@@ -13,6 +13,8 @@ class UserSeeder extends Seeder
             'username'   => 'jdelacruz',
             'full_name'  => 'Juan Dela Cruz',
             'email'      => 'juan.delacruz@example.com',
+            // Demo login password is "password123". Only the hash is stored.
+            'password'   => password_hash('password123', PASSWORD_DEFAULT),
             'created_at' => date('Y-m-d H:i:s'),
         ]);
     }
